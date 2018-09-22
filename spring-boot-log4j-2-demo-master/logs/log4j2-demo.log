@@ -1,0 +1,286 @@
+2018-09-22 00:35:14.158  INFO MiPC --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4j2demo.Log4j2DemoApplicationTests], using SpringBootContextLoader
+2018-09-22 00:35:14.171  INFO MiPC --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.log4j2demo.Log4j2DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-22 00:35:14.172  INFO MiPC --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.log4j2demo.Log4j2DemoApplicationTests]: Log4j2DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-22 00:35:14.308  INFO MiPC --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.log4j2demo.Log4j2DemoApplication for test class com.example.log4j2demo.Log4j2DemoApplicationTests
+2018-09-22 00:35:14.479  INFO MiPC --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-22 00:35:14.498  INFO MiPC --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a5a4e19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7068e664, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@60db1c0e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e78b6a5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@769a1df5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41f69e84, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7975d1d8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2438dcd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@24105dc5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5167f57d]
+2018-09-22 00:35:14.818  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplicationTests         : Starting Log4j2DemoApplicationTests on MiPC with PID 14176 (started by ohrst in C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master)
+2018-09-22 00:35:14.822 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplicationTests         : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-09-22 00:35:14.823  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplicationTests         : No active profile set, falling back to default profiles: default
+2018-09-22 00:35:14.989  INFO MiPC --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f7923a5: startup date [Sat Sep 22 00:35:14 CDT 2018]; root of context hierarchy
+2018-09-22 00:35:17.053  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f7923a5: startup date [Sat Sep 22 00:35:14 CDT 2018]; root of context hierarchy
+2018-09-22 00:35:17.168  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-22 00:35:17.173  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-22 00:35:17.234  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:35:17.234  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:35:17.326  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:35:18.180  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplicationTests         : Started Log4j2DemoApplicationTests in 3.63 seconds (JVM running for 5.286)
+2018-09-22 00:35:18.184 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Debugging log
+2018-09-22 00:35:18.184  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Info log
+2018-09-22 00:35:18.184  WARN MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Hey, This is a warning!
+2018-09-22 00:35:18.184 ERROR MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Oops! We have an Error. OK
+2018-09-22 00:35:18.184 FATAL MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Damn! Fatal error. Please fix me.
+2018-09-22 00:35:18.406  INFO MiPC --- [       Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6f7923a5: startup date [Sat Sep 22 00:35:14 CDT 2018]; root of context hierarchy
+2018-09-22 00:36:21.039  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on MiPC with PID 11340 (C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master\target\classes started by ohrst in C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master)
+2018-09-22 00:36:21.045 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-09-22 00:36:21.045  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2018-09-22 00:36:21.085  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a03bcb1: startup date [Sat Sep 22 00:36:21 CDT 2018]; root of context hierarchy
+2018-09-22 00:36:22.056  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2018-09-22 00:36:22.078  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-09-22 00:36:22.086  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-22 00:36:22.086  INFO MiPC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-22 00:36:22.091  INFO MiPC --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;C:\dev\db\oracleexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\ohrst\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\ohrst\AppData\Local\atom\bin;C:\ProgramData\ohrst\atom\bin;C:\dev\ide\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-09-22 00:36:22.190  INFO MiPC --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-22 00:36:22.191  INFO MiPC --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1109 ms
+2018-09-22 00:36:22.322  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-22 00:36:22.327  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-22 00:36:22.328  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-22 00:36:22.328  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-22 00:36:22.328  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-22 00:36:22.599  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a03bcb1: startup date [Sat Sep 22 00:36:21 CDT 2018]; root of context hierarchy
+2018-09-22 00:36:22.654  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-22 00:36:22.655  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-22 00:36:22.684  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:36:22.684  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:36:22.715  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:36:22.834  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-22 00:36:22.846  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-09-22 00:36:22.853 ERROR MiPC --- [           main] o.a.c.c.StandardService                  : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.log4j2demo.Log4j2DemoApplication.main(Log4j2DemoApplication.java:15)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 more
+2018-09-22 00:36:22.857  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2018-09-22 00:36:22.857  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2018-09-22 00:36:22.863  INFO MiPC --- [           main] o.a.c.u.LifecycleBase                    : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-09-22 00:36:22.864  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2018-09-22 00:36:22.864  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2018-09-22 00:36:22.867  INFO MiPC --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-22 00:36:22.870 ERROR MiPC --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-09-22 00:36:22.871  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a03bcb1: startup date [Sat Sep 22 00:36:21 CDT 2018]; root of context hierarchy
+2018-09-22 00:36:22.872  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-22 00:37:45.190  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on MiPC with PID 17348 (C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master\target\classes started by ohrst in C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master)
+2018-09-22 00:37:45.195 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-09-22 00:37:45.195  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2018-09-22 00:37:45.234  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11c9af63: startup date [Sat Sep 22 00:37:45 CDT 2018]; root of context hierarchy
+2018-09-22 00:37:46.116  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2018-09-22 00:37:46.136  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:37:46.145  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-22 00:37:46.145  INFO MiPC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-22 00:37:46.150  INFO MiPC --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;C:\dev\db\oracleexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\ohrst\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\ohrst\AppData\Local\atom\bin;C:\ProgramData\ohrst\atom\bin;C:\dev\ide\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-09-22 00:37:46.247  INFO MiPC --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-22 00:37:46.247  INFO MiPC --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1016 ms
+2018-09-22 00:37:46.377  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-22 00:37:46.381  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-22 00:37:46.381  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-22 00:37:46.381  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-22 00:37:46.382  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-22 00:37:46.697  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11c9af63: startup date [Sat Sep 22 00:37:45 CDT 2018]; root of context hierarchy
+2018-09-22 00:37:46.743  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-22 00:37:46.744  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-22 00:37:46.765  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:37:46.765  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:37:46.788  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:37:46.880  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-22 00:37:46.889  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:37:47.288  INFO MiPC --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-09-22 00:37:47.302  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2018-09-22 00:37:47.305  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Started Log4j2DemoApplication in 2.402 seconds (JVM running for 3.498)
+2018-09-22 00:37:47.306 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Debugging log
+2018-09-22 00:37:47.306  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Info log
+2018-09-22 00:37:47.306  WARN MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Hey, This is a warning!
+2018-09-22 00:37:47.306 ERROR MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Oops! We have an Error. OK
+2018-09-22 00:37:47.306 FATAL MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Damn! Fatal error. Please fix me.
+2018-09-22 00:40:05.626  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on MiPC with PID 7432 (C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master\target\classes started by ohrst in C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master)
+2018-09-22 00:40:05.630 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-09-22 00:40:05.630  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2018-09-22 00:40:05.661  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b4bac49: startup date [Sat Sep 22 00:40:05 CDT 2018]; root of context hierarchy
+2018-09-22 00:40:06.522  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2018-09-22 00:40:06.541  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:06.548  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-22 00:40:06.548  INFO MiPC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-22 00:40:06.552  INFO MiPC --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;C:\dev\db\oracleexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\ohrst\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\ohrst\AppData\Local\atom\bin;C:\ProgramData\ohrst\atom\bin;C:\dev\ide\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-09-22 00:40:06.632  INFO MiPC --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-22 00:40:06.633  INFO MiPC --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 974 ms
+2018-09-22 00:40:06.737  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-22 00:40:06.740  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-22 00:40:06.740  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-22 00:40:06.740  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-22 00:40:06.741  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-22 00:40:06.964  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b4bac49: startup date [Sat Sep 22 00:40:05 CDT 2018]; root of context hierarchy
+2018-09-22 00:40:07.005  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-22 00:40:07.006  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-22 00:40:07.030  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:40:07.030  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:40:07.053  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:40:07.154  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-22 00:40:07.165  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:07.168 ERROR MiPC --- [           main] o.a.c.c.StandardService                  : Failed to start connector [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.log4j2demo.Log4j2DemoApplication.main(Log4j2DemoApplication.java:15)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 more
+2018-09-22 00:40:07.172  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:07.172  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2018-09-22 00:40:07.178  INFO MiPC --- [           main] o.a.c.u.LifecycleBase                    : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-09-22 00:40:07.178  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:07.178  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:07.181  INFO MiPC --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-22 00:40:07.183 ERROR MiPC --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2018-09-22 00:40:07.184  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b4bac49: startup date [Sat Sep 22 00:40:05 CDT 2018]; root of context hierarchy
+2018-09-22 00:40:07.186  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-22 00:40:11.694  INFO MiPC --- [n(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-09-22 00:40:11.694  INFO MiPC --- [n(10)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11c9af63: startup date [Sat Sep 22 00:37:45 CDT 2018]; root of context hierarchy
+2018-09-22 00:40:11.696  INFO MiPC --- [n(10)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-22 00:40:15.155  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on MiPC with PID 12832 (C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master\target\classes started by ohrst in C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master)
+2018-09-22 00:40:15.159 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-09-22 00:40:15.160  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2018-09-22 00:40:15.193  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a266d09: startup date [Sat Sep 22 00:40:15 CDT 2018]; root of context hierarchy
+2018-09-22 00:40:15.944  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2018-09-22 00:40:15.961  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:15.968  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-22 00:40:15.968  INFO MiPC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-22 00:40:15.972  INFO MiPC --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;C:\dev\db\oracleexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\ohrst\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\ohrst\AppData\Local\atom\bin;C:\ProgramData\ohrst\atom\bin;C:\dev\ide\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-09-22 00:40:16.103  INFO MiPC --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-22 00:40:16.103  INFO MiPC --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 912 ms
+2018-09-22 00:40:16.271  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-22 00:40:16.275  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-22 00:40:16.275  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-22 00:40:16.276  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-22 00:40:16.276  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-22 00:40:16.492  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a266d09: startup date [Sat Sep 22 00:40:15 CDT 2018]; root of context hierarchy
+2018-09-22 00:40:16.536  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-22 00:40:16.537  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-22 00:40:16.560  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:40:16.561  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:40:16.583  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:40:16.685  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-22 00:40:16.695  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:40:16.710  INFO MiPC --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-09-22 00:40:16.722  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2018-09-22 00:40:16.725  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Started Log4j2DemoApplication in 1.821 seconds (JVM running for 2.695)
+2018-09-22 00:40:16.726 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Debugging log
+2018-09-22 00:40:16.726  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Info log
+2018-09-22 00:40:16.726  WARN MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Hey, This is a warning!
+2018-09-22 00:40:16.727 ERROR MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Oops! We have an Error. OK
+2018-09-22 00:40:16.727 FATAL MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Damn! Fatal error. Please fix me.
+2018-09-22 00:42:13.001  INFO MiPC --- [on(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-09-22 00:42:13.001  INFO MiPC --- [on(8)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a266d09: startup date [Sat Sep 22 00:40:15 CDT 2018]; root of context hierarchy
+2018-09-22 00:42:13.003  INFO MiPC --- [on(8)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-22 00:42:17.567  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on MiPC with PID 13292 (C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master\target\classes started by ohrst in C:\dev\workspace\Examples\spring-boot-log4j-2-demo-master)
+2018-09-22 00:42:17.571 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-09-22 00:42:17.572  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2018-09-22 00:42:17.609  INFO MiPC --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36b4fe2a: startup date [Sat Sep 22 00:42:17 CDT 2018]; root of context hierarchy
+2018-09-22 00:42:18.345  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2018-09-22 00:42:18.363  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:42:18.368  INFO MiPC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-22 00:42:18.368  INFO MiPC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-22 00:42:18.372  INFO MiPC --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;C:\dev\db\oracleexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\ohrst\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\ohrst\AppData\Local\atom\bin;C:\ProgramData\ohrst\atom\bin;C:\dev\ide\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-09-22 00:42:18.450  INFO MiPC --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-22 00:42:18.450  INFO MiPC --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 843 ms
+2018-09-22 00:42:18.556  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-22 00:42:18.559  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-22 00:42:18.560  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-22 00:42:18.560  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-22 00:42:18.560  INFO MiPC --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-22 00:42:18.799  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36b4fe2a: startup date [Sat Sep 22 00:42:17 CDT 2018]; root of context hierarchy
+2018-09-22 00:42:18.848  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-22 00:42:18.849  INFO MiPC --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-22 00:42:18.878  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:42:18.878  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:42:18.900  INFO MiPC --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-22 00:42:18.990  INFO MiPC --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-22 00:42:19.000  INFO MiPC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8090"]
+2018-09-22 00:42:19.015  INFO MiPC --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-09-22 00:42:19.026  INFO MiPC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2018-09-22 00:42:19.028  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : Started Log4j2DemoApplication in 1.682 seconds (JVM running for 2.575)
+2018-09-22 00:42:19.029 DEBUG MiPC --- [           main] c.e.l.Log4j2DemoApplication              : |22/09/2018 00:42:19.29|Debugging log
+2018-09-22 00:42:19.029  INFO MiPC --- [           main] c.e.l.Log4j2DemoApplication              : |22/09/2018 00:42:19.29|Info log
+2018-09-22 00:42:19.029  WARN MiPC --- [           main] c.e.l.Log4j2DemoApplication              : |22/09/2018 00:42:19.29|Hey, This is a warning!
+2018-09-22 00:42:19.029 ERROR MiPC --- [           main] c.e.l.Log4j2DemoApplication              : |22/09/2018 00:42:19.29|Oops! We have an Error. OK
+2018-09-22 00:42:19.029 FATAL MiPC --- [           main] c.e.l.Log4j2DemoApplication              : |22/09/2018 00:42:19.29|Damn! Fatal error. Please fix me.
+2018-09-22 00:44:06.142  INFO MiPC --- [on(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-09-22 00:44:06.143  INFO MiPC --- [on(9)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36b4fe2a: startup date [Sat Sep 22 00:42:17 CDT 2018]; root of context hierarchy
+2018-09-22 00:44:06.145  INFO MiPC --- [on(9)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
